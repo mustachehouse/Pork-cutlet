@@ -108,6 +108,15 @@
     background-color: #383838;
 }
 
+#if {
+    display: none;
+    width: 0px;
+    height: 0px;
+    border: 0px;
+    margin: 0;
+    padding: 0;
+}
+
 
 /* for tablet, mobile */
 @media screen and (max-width: 820px) {
@@ -175,6 +184,15 @@
         margin: 0 0 0 0;
         background-color: #dedede;
         padding-bottom: 20px;
+    }
+
+    #if {
+        display: none;
+        width: 0px;
+        height: 0px;
+        border: 0px;
+        margin: 0;
+        padding: 0;
     }
 
 }

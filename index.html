@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script language="javascript">
+        function showAlert() {
+        alert("신청해주셔서 감사합니다.\n담당자 배정 후 신속히 연락드리겠습니다.");
+        }
+    </script>
     <title>돈까스 허선생</title>
 </head>
 <body>
@@ -39,7 +44,7 @@
     <div id="form" class="randing_7"style="width: 100%;">
         <h2>가맹점 문의하기</h2><br>
         <form id="gform" method="POST" data-email="mustachehouse@naver.com"
-        action="https://script.google.com/macros/s/AKfycbzVr_1CBE4YH0qnGyMR8-2wmmITDklZbvYrFRVjwD6f9d-Twa4/exec"
+        action="https://script.google.com/macros/s/AKfycbydXCgoWsuXKjFdbBiRVrN-7XmqiCD2jGaLu1Vw6aICXeuaf7Y8/exec"
         target="param">
 
         <label for="name">이름＊</label><br>
@@ -49,7 +54,7 @@
         <input type="text" id="phone" name="phone" minlength="11" maxlength="13" placeholder=" - 을 제외하고 입력하세요." required><br><br>
 
         <label for="place">지역＊</label><br>
-        <input type="text" id="car" name="car" required><br><br>
+        <input type="text" id="place" name="place" required><br><br>
 
         <label for="agree">개인정보 수집 및 이용 동의＊</label><br>
         <textarea class="agree" form-privacy-text readonly>
@@ -114,6 +119,14 @@
         <input id="submit" type="submit" value="가맹점 문의하기"  onclick="showAlert();" />
 
     </form>
+    </div>
+
+    <iframe id="if" name="param"></iframe>
+    <script>
+        function ifun(msg){
+            alert(msg);
+        }
+    </script>
 
 </body>
 </html>
