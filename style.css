@@ -1,0 +1,180 @@
+.title {
+    display: block;
+    text-align: center;
+    min-width: 220px;
+    border-bottom: 2px solid black;
+}
+
+.randing_1 {
+    max-width: 960px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.randing_2 {
+    max-width: 960px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.randing_3 {
+    max-width: 960px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.randing_4 {
+    max-width: 960px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.randing_5 {
+    max-width: 960px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.randing_6 {
+    max-width: 960px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.randing_7 {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #dedede;
+}
+
+.randing_7 h2 {
+    font-size: 180%;
+    text-align: center;
+    margin: 0;
+    padding: 30px 0 0 0;
+    background-color: #dedede;
+}
+
+.randing_7 label {
+    font-size: 18px;
+    margin: 0 0 0 9.5%;
+    line-height: 33px;
+    padding: 0 0 0 0;
+}
+
+.randing_7 input {
+    margin: 0 0 0 9.5%;
+    width: 80%;
+    height: 30px;
+}
+
+.randing_7 select {
+    margin: 0 0 0 9.5%;
+    width: 81%;
+    height: 37px
+}
+
+.randing_7 option {
+    font-size: 18px;
+}
+
+.randing_7 textarea {
+    margin: 0 0 0 9.5%;
+    width: 80%;
+    height: 50px;
+}
+
+#agree_checkbox {
+    width: 25px;
+    margin: 10px 0 0 0;
+}
+
+#submit {
+    font-size: 25px;
+    padding: 0 0 0 0;
+    margin: 3% 0 30px 9.5%;
+    width: 81%;
+    height: 50px;
+    color: white;
+    border-style: none;
+    background-color: #383838;
+}
+
+
+/* for tablet, mobile */
+@media screen and (max-width: 820px) {
+
+    .randing_1 {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    
+    .randing_2 {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    
+    .randing_3 {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    
+    .randing_4 {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    
+    .randing_5 {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    
+    .randing_6 {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    
+    .randing_7 h2 {
+        font-size: 180%;
+        text-align: center;
+        margin: 0;
+        padding: 30px 0 0 0;
+        background-color: #dedede;
+    }
+
+    .randing_7 {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 0 0 0;
+        background-color: #dedede;
+        padding-bottom: 20px;
+    }
+
+}
