@@ -6,47 +6,32 @@
 }
 
 .randing_1 {
-    max-width: 960px;
+    max-width: 1149px;
     display: block;
     margin: 0 auto;
     padding: 0;
 }
 
 .randing_2 {
-    max-width: 960px;
+    max-width: 1149px;
     display: block;
     margin: 0 auto;
     padding: 0;
 }
 
 .randing_3 {
-    max-width: 960px;
+    max-width: 1149px;
     display: block;
     margin: 0 auto;
     padding: 0;
 }
 
 .randing_4 {
-    max-width: 960px;
+    max-width: 1149px;
     display: block;
     margin: 0 auto;
     padding: 0;
 }
-
-.randing_5 {
-    max-width: 960px;
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-}
-
-.randing_6 {
-    max-width: 960px;
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-}
-
 
 .randing_7 {
     display: block;
@@ -160,15 +145,7 @@
         margin: 0 0 0 0;
         padding: 0 0 0 0;
     }
-    
-    .randing_6 {
-        display: block;
-        max-width: 100%;
-        max-height: 100%;
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
-    }
-    
+
     .randing_7 h2 {
         font-size: 180%;
         text-align: center;
